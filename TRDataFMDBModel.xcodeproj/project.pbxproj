@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18D1B98411C21BA9BD6816E8 /* libPods-TRDataFMDBModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C427D4F8B7069892FFBA10 /* libPods-TRDataFMDBModel.a */; };
 		42ACD7AE1FEBB7370011FC65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD7AD1FEBB7370011FC65 /* AppDelegate.m */; };
 		42ACD7B11FEBB7370011FC65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD7B01FEBB7370011FC65 /* ViewController.m */; };
 		42ACD7B41FEBB7370011FC65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ACD7B21FEBB7370011FC65 /* Main.storyboard */; };
 		42ACD7B61FEBB7370011FC65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42ACD7B51FEBB7370011FC65 /* Assets.xcassets */; };
 		42ACD7B91FEBB7370011FC65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ACD7B71FEBB7370011FC65 /* LaunchScreen.storyboard */; };
 		42ACD7BC1FEBB7370011FC65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD7BB1FEBB7370011FC65 /* main.m */; };
+		42ACD7E71FEBB7EB0011FC65 /* TRDataFMDBFileUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD7DF1FEBB7EB0011FC65 /* TRDataFMDBFileUtility.m */; };
+		42ACD7E81FEBB7EB0011FC65 /* TRDataFMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD7E21FEBB7EB0011FC65 /* TRDataFMDBManager.m */; };
+		42ACD7E91FEBB7EB0011FC65 /* TRDataFMDBModel+FileStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD7E41FEBB7EB0011FC65 /* TRDataFMDBModel+FileStorage.m */; };
+		42ACD7EA1FEBB7EB0011FC65 /* TRDataFMDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD7E61FEBB7EB0011FC65 /* TRDataFMDBModel.m */; };
+		42ACD7ED1FEBB9F00011FC65 /* demoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD7EB1FEBB9EF0011FC65 /* demoModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33DF22AE7B55722B7EAC9975 /* Pods-TRDataFMDBModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRDataFMDBModel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRDataFMDBModel/Pods-TRDataFMDBModel.debug.xcconfig"; sourceTree = "<group>"; };
 		42ACD7A91FEBB7370011FC65 /* TRDataFMDBModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRDataFMDBModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42ACD7AC1FEBB7370011FC65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42ACD7AD1FEBB7370011FC65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +33,19 @@
 		42ACD7B81FEBB7370011FC65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42ACD7BA1FEBB7370011FC65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42ACD7BB1FEBB7370011FC65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42ACD7DE1FEBB7EB0011FC65 /* TRDataFMDBFileUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRDataFMDBFileUtility.h; sourceTree = "<group>"; };
+		42ACD7DF1FEBB7EB0011FC65 /* TRDataFMDBFileUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRDataFMDBFileUtility.m; sourceTree = "<group>"; };
+		42ACD7E01FEBB7EB0011FC65 /* TRDataFMDBHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRDataFMDBHeaders.h; sourceTree = "<group>"; };
+		42ACD7E11FEBB7EB0011FC65 /* TRDataFMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRDataFMDBManager.h; sourceTree = "<group>"; };
+		42ACD7E21FEBB7EB0011FC65 /* TRDataFMDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRDataFMDBManager.m; sourceTree = "<group>"; };
+		42ACD7E31FEBB7EB0011FC65 /* TRDataFMDBModel+FileStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TRDataFMDBModel+FileStorage.h"; sourceTree = "<group>"; };
+		42ACD7E41FEBB7EB0011FC65 /* TRDataFMDBModel+FileStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TRDataFMDBModel+FileStorage.m"; sourceTree = "<group>"; };
+		42ACD7E51FEBB7EB0011FC65 /* TRDataFMDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRDataFMDBModel.h; sourceTree = "<group>"; };
+		42ACD7E61FEBB7EB0011FC65 /* TRDataFMDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRDataFMDBModel.m; sourceTree = "<group>"; };
+		42ACD7EB1FEBB9EF0011FC65 /* demoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demoModel.m; sourceTree = "<group>"; };
+		42ACD7EC1FEBB9F00011FC65 /* demoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demoModel.h; sourceTree = "<group>"; };
+		69C427D4F8B7069892FFBA10 /* libPods-TRDataFMDBModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRDataFMDBModel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D1DF5FFD62F3C495C5B1F1 /* Pods-TRDataFMDBModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRDataFMDBModel.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRDataFMDBModel/Pods-TRDataFMDBModel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D1B98411C21BA9BD6816E8 /* libPods-TRDataFMDBModel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +63,11 @@
 		42ACD7A01FEBB7370011FC65 = {
 			isa = PBXGroup;
 			children = (
+				42ACD7DD1FEBB7EB0011FC65 /* TRFMDBModel */,
 				42ACD7AB1FEBB7370011FC65 /* TRDataFMDBModel */,
 				42ACD7AA1FEBB7370011FC65 /* Products */,
+				58149102B798D8308F49BE28 /* Pods */,
+				5751D813E7795273F5095AF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +82,8 @@
 		42ACD7AB1FEBB7370011FC65 /* TRDataFMDBModel */ = {
 			isa = PBXGroup;
 			children = (
+				42ACD7EC1FEBB9F00011FC65 /* demoModel.h */,
+				42ACD7EB1FEBB9EF0011FC65 /* demoModel.m */,
 				42ACD7AC1FEBB7370011FC65 /* AppDelegate.h */,
 				42ACD7AD1FEBB7370011FC65 /* AppDelegate.m */,
 				42ACD7AF1FEBB7370011FC65 /* ViewController.h */,
@@ -71,6 +97,39 @@
 			path = TRDataFMDBModel;
 			sourceTree = "<group>";
 		};
+		42ACD7DD1FEBB7EB0011FC65 /* TRFMDBModel */ = {
+			isa = PBXGroup;
+			children = (
+				42ACD7DE1FEBB7EB0011FC65 /* TRDataFMDBFileUtility.h */,
+				42ACD7DF1FEBB7EB0011FC65 /* TRDataFMDBFileUtility.m */,
+				42ACD7E01FEBB7EB0011FC65 /* TRDataFMDBHeaders.h */,
+				42ACD7E11FEBB7EB0011FC65 /* TRDataFMDBManager.h */,
+				42ACD7E21FEBB7EB0011FC65 /* TRDataFMDBManager.m */,
+				42ACD7E31FEBB7EB0011FC65 /* TRDataFMDBModel+FileStorage.h */,
+				42ACD7E41FEBB7EB0011FC65 /* TRDataFMDBModel+FileStorage.m */,
+				42ACD7E51FEBB7EB0011FC65 /* TRDataFMDBModel.h */,
+				42ACD7E61FEBB7EB0011FC65 /* TRDataFMDBModel.m */,
+			);
+			path = TRFMDBModel;
+			sourceTree = "<group>";
+		};
+		5751D813E7795273F5095AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69C427D4F8B7069892FFBA10 /* libPods-TRDataFMDBModel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58149102B798D8308F49BE28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33DF22AE7B55722B7EAC9975 /* Pods-TRDataFMDBModel.debug.xcconfig */,
+				89D1DF5FFD62F3C495C5B1F1 /* Pods-TRDataFMDBModel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42ACD7BF1FEBB7370011FC65 /* Build configuration list for PBXNativeTarget "TRDataFMDBModel" */;
 			buildPhases = (
+				4D88F84E20CB4C1E796AAE72 /* [CP] Check Pods Manifest.lock */,
 				42ACD7A51FEBB7370011FC65 /* Sources */,
 				42ACD7A61FEBB7370011FC65 /* Frameworks */,
 				42ACD7A71FEBB7370011FC65 /* Resources */,
+				3E3878612D612397403E0577 /* [CP] Embed Pods Frameworks */,
+				F642ED68902613F9E2643347 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,14 +199,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E3878612D612397403E0577 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRDataFMDBModel/Pods-TRDataFMDBModel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D88F84E20CB4C1E796AAE72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TRDataFMDBModel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F642ED68902613F9E2643347 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRDataFMDBModel/Pods-TRDataFMDBModel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42ACD7A51FEBB7370011FC65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				42ACD7B11FEBB7370011FC65 /* ViewController.m in Sources */,
+				42ACD7E81FEBB7EB0011FC65 /* TRDataFMDBManager.m in Sources */,
 				42ACD7BC1FEBB7370011FC65 /* main.m in Sources */,
+				42ACD7E91FEBB7EB0011FC65 /* TRDataFMDBModel+FileStorage.m in Sources */,
+				42ACD7ED1FEBB9F00011FC65 /* demoModel.m in Sources */,
+				42ACD7E71FEBB7EB0011FC65 /* TRDataFMDBFileUtility.m in Sources */,
 				42ACD7AE1FEBB7370011FC65 /* AppDelegate.m in Sources */,
+				42ACD7EA1FEBB7EB0011FC65 /* TRDataFMDBModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +394,7 @@
 		};
 		42ACD7C01FEBB7370011FC65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33DF22AE7B55722B7EAC9975 /* Pods-TRDataFMDBModel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +409,7 @@
 		};
 		42ACD7C11FEBB7370011FC65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D1DF5FFD62F3C495C5B1F1 /* Pods-TRDataFMDBModel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

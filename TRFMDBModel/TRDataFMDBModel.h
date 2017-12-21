@@ -1,7 +1,14 @@
-# TRDataFMDBModel
+//
+//  TRDataFMDBModel.h
+//  BasePackage
+//
+//  Created by ZYW on 17/4/28.
+//  Copyright © 2017年 ZYW. All rights reserved.
+//  该类主要继承EXModel 获取基类属性 存储字段 数据库操作事务（CRUD）
+#import <Foundation/Foundation.h>
 
+@interface TRDataFMDBModel : NSObject
 
-```
 /**
  增加到数据库
 */
@@ -103,5 +110,5 @@
  @param URL 图片URL
  */
 + (BOOL)storageImageFile:(NSString *)URL;
-```
 
+@end

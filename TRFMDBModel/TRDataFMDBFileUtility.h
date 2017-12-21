@@ -1,5 +1,5 @@
 //
-//  EXDataFMDBFileUtility.h
+//  TRDataFMDBFileUtility.h
 //  BasePackage
 //
 //  Created by ZYW on 17/5/3.
@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface EXDataFMDBFileUtility : NSObject
+@interface TRDataFMDBFileUtility : NSObject
 
-+ (EXDataFMDBFileUtility *)shareInstance;
++ (TRDataFMDBFileUtility *)shareInstance;
 
 /**
  创建文件夹

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "demoModel.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// Override point for customization after application launch.
+	
+	for (NSInteger idx = 0; idx < 10; idx++) {
+		demoModel *model = [[demoModel alloc] init];
+		model.userId = [NSString stringWithFormat:@"%ld",idx+1];
+		model.nickName = [NSString stringWithFormat:@"李斯%lu",(unsigned long)idx];
+		model.headPic = @"http://imgtu.5011.net/uploads/content/20170329/5440631490773274.jpg";
+		[model addToDB];
+	}
+	
 	return YES;
 }
 

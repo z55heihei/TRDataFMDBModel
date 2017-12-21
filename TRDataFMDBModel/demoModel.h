@@ -6,9 +6,9 @@
 //  Copyright © 2017年 ZYW. All rights reserved.
 //
 
-#import "EXDataFMDBModel.h"
+#import "TRDataFMDBModel.h"
 
-@interface demoModel : EXDataFMDBModel
+@interface demoModel : TRDataFMDBModel
 
 @property (nonatomic,copy) NSString  *userId;
 
